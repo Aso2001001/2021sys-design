@@ -1,6 +1,6 @@
 ```uml
 @startuml
-Alice -> Bob: Request
-Bob --> Alice: Request
+ユーザー -> webサーバー :
+webサーバー -> DBサーバー :
 @enduml
 ```
