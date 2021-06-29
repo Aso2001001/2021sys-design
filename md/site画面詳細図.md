@@ -1,9 +1,9 @@
 ### 画面詳細図
 ## トップページ
 ### プロトタイプは以下のリンク先
-[プロトタイプ]()
+[プロトタイプ](https://www.figma.com/file/5ZwQgC2YFRHsrNVef4Gtk6/original?node-id=5%3A7)
 *****
-<img src="../img/" width="500">
+<img src="../img/sitetoppage" width="500">
 *****
 
 |　ID　|　要素　|　内容|　アクション　| イベント | 対応DB |
