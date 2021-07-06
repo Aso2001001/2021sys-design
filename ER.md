@@ -1,6 +1,7 @@
 ```startuml
 @startuml
-entity "購入テーブル" <d_parchase> {
+entity "購入テーブル" <d_parchase>
+<<M,MASTER_MARK_COLOR>> {
   + order_id [PK]
   --
   customer_code
@@ -10,8 +11,8 @@ entity "購入テーブル" <d_parchase> {
 
 entity "購入テーブル詳細" <d_purchase_detail> {
   +detail_id[PK]
+  +order_id [PK]
   --
-  order_id
   item_code
   price
   num
@@ -47,6 +48,8 @@ entity "商品テーブル" <m_items> {
   del_flag
   reg_date
 }
+ 
+ 
  
 @enduml
 ```
