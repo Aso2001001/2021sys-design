@@ -17,7 +17,18 @@ entity "購入テーブル詳細" <d_purchase_detail> {
   num
 }
 
-
-
+entity "ユーザー（顧客）テーブル" <m_customers> {
+  +customer_code[PK]
+  +pass [PK]
+  --
+  name
+  address
+  tel
+  mail 
+  del_flag
+  reg_date
+  }
+  
+ 
 @enduml
 ```
