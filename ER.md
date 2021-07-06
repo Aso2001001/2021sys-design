@@ -2,8 +2,7 @@
 @startuml
 
 package "ECサイト" as target_system {
-  entity "購入テーブル" <d_parchase>
-  <<M,MASTER_MARK_COLOR>> {
+  entity "購入テーブル" <d_parchase>{
     + order_id [PK]
     --
     customer_code
