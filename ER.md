@@ -1,5 +1,15 @@
 ```startuml
 @startuml
+
+skinparam class {
+    '図の背景
+    BackgroundColor Snow
+    '図の枠
+    BorderColor Black
+    'リレーションの色
+    ArrowColor Black
+}
+
 package "ECサイト" as target_system {
   entity "購入テーブル" <d_parchase>
   <<M,MASTER_MARK_COLOR>> {
@@ -9,7 +19,6 @@ package "ECサイト" as target_system {
     purchase_date
     total_price
   }
-}
 
   entity "購入テーブル詳細" <d_purchase_detail> {
     +detail_id[PK]
@@ -50,7 +59,7 @@ package "ECサイト" as target_system {
     del_flag
     reg_date
     }
-
+}
  
  
 @enduml
