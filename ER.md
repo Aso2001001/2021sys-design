@@ -1,5 +1,6 @@
 ```startuml
 @startuml
+package "ECサイト" as target_system{
 entity "購入テーブル" <d_parchase>
 <<M,MASTER_MARK_COLOR>> {
   + order_id [PK]
@@ -48,7 +49,7 @@ entity "商品テーブル" <m_items> {
   del_flag
   reg_date
 }
- 
+} 
  
  
 @enduml
