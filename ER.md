@@ -27,8 +27,26 @@ entity "ユーザー（顧客）テーブル" <m_customers> {
   mail 
   del_flag
   reg_date
-  }
+}
   
+entity "カテゴリーテーブル" <m_category> {
+  +category_id [PK]
+  --
+  name
+  reg_date
+}
+
+entity "商品テーブル" <m_items> {
+  +item_code [PK]
+  --
+  item_name
+  price
+  category_id
+  image
+  detail
+  del_flag
+  reg_date
+}
  
 @enduml
 ```
