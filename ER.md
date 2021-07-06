@@ -9,6 +9,7 @@ package "ECサイト" as target_system {
     purchase_date
     total_price
   }
+}
 
   entity "購入テーブル詳細" <d_purchase_detail> {
     +detail_id[PK]
@@ -49,7 +50,7 @@ package "ECサイト" as target_system {
     del_flag
     reg_date
     }
-} 
+
  
  
 @enduml
