@@ -1,3 +1,4 @@
+```startuml
 @startuml
 entity "購入テーブル" <d_parchase>
 <<M.MASTER MASK COLOR>>{
@@ -8,3 +9,4 @@ entity "購入テーブル" <d_parchase>
   total_price
 }
 @enduml
+```
