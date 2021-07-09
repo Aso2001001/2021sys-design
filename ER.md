@@ -4,11 +4,8 @@
 colors
 !define MASTER_MARK_COLOR Orange 
 skinparam class {
-    '図の背景
     BackgroundColor Snow
-    '図の枠
     BorderColor Black
-    'リレーションの色
     ArrowColor Black
 }
 
