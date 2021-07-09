@@ -1,7 +1,6 @@
 ```startuml
 @startuml
 
-colors
 !define MASTER_MARK_COLOR Orange 
 skinparam class {
     BackgroundColor Snow
