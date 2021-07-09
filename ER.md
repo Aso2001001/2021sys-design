@@ -59,10 +59,10 @@ package "ECサイト" as target_system {
     reg_date
     }
 
-"ユーザー（顧客）テーブル" |o-ri-o{ "購入テーブル"
-"購入テーブル詳細" }--|| "商品テーブル"
-"購入テーブル" ||-ri-|{ "購入テーブル詳細"
-"商品テーブル" }o-le-|| "カテゴリーテーブル"
+customer |o-ri-o{ purchase
+purchase_detail }--|| items
+purchase ||-ri-|{ purchase_detail
+items }o-le-|| category
 
 
 }
