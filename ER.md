@@ -49,9 +49,11 @@ package "ECサイト" as target_system {
     del_flag
     reg_date
     }
-}
 
 d_purchase_detail }--|| m_items
+
+}
+
  
 @enduml
 ```
