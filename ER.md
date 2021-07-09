@@ -50,7 +50,7 @@ package "ECサイト" as target_system {
     reg_date
     }
 
-d_purchase_detail }--|| m_items
+"購入テーブル詳細" }--|| "商品テーブル"
 
 }
 
