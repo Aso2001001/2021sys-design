@@ -11,7 +11,7 @@ skinparam class {
 
 
 package "ECサイト" as target_system {
-  entity "購入テーブル" as parchase <d_parchase> {
+  entity "購入テーブル" as purchase <d_parchase> {
     + order_id [PK]
     --
     customer_code
