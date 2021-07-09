@@ -27,7 +27,7 @@ package "ECサイト" as target_system {
     num
   }
 
-  entity "ユーザー（顧客）テーブル" 
+  entity "ユーザー（顧客）テーブル" as customer
   <m_customers> <<M,MASTER_COLOR>> {
     +customer_code[PK]
     +pass [PK]
