@@ -1,8 +1,11 @@
 ```startuml
 @startuml
 
+!define MASTER_MARK_COLOR Orange 
+
 package "ECサイト" as target_system {
-  entity "購入テーブル" <d_parchase>{
+  entity "購入テーブル" 
+  <d_parchase> <<M,MASTER_MARK/COLOR>> {
     + order_id [PK]
     --
     customer_code
