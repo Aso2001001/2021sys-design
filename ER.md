@@ -11,7 +11,7 @@ skinparam class {
 
 
 package "ECサイト" as target_system {
-  entity "購入テーブル" <d_parchase> {
+  entity "購入テーブル" as parchase <d_parchase> {
     + order_id [PK]
     --
     customer_code
@@ -19,7 +19,7 @@ package "ECサイト" as target_system {
     total_price
   }
 
-  entity "購入テーブル詳細" <d_purchase_detail> {
+  entity "購入テーブル詳細" as purchase_detail <d_purchase_detail> {
     +detail_id[PK]
     +order_id [PK]
     --
@@ -40,14 +40,14 @@ package "ECサイト" as target_system {
     reg_date
   }
   
-  entity "カテゴリーテーブル" <m_category> {
+  entity "カテゴリーテーブル" as category <m_category> {
     +category_id [PK]
     --
     name
     reg_date
   }
 
-  entity "商品テーブル" <m_items> {
+  entity "商品テーブル" as items <m_items> {
     +item_code [PK]
     --
     item_name
