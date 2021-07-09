@@ -1,11 +1,21 @@
 ```startuml
 @startuml
 
+colors
 !define MASTER_MARK_COLOR Orange 
+skinparam class {
+    '図の背景
+    BackgroundColor Snow
+    '図の枠
+    BorderColor Black
+    'リレーションの色
+    ArrowColor Black
+}
+
 
 package "ECサイト" as target_system {
   entity "購入テーブル" 
-  <d_parchase> <<M,MASTER_MARK/COLOR>> {
+  <d_parchase> {
     + order_id [PK]
     --
     customer_code
@@ -22,7 +32,8 @@ package "ECサイト" as target_system {
     num
   }
 
-  entity "ユーザー（顧客）テーブル" <m_customers> {
+  entity "ユーザー（顧客）テーブル" 
+  <m_customers> <<M,MASTER_COLOR>> {
     +customer_code[PK]
     +pass [PK]
     --
