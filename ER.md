@@ -51,8 +51,11 @@ package "ECサイト" as target_system {
     }
 }
 
- 
+```startuml
+@startuml
 -d_purchase_detail }--|| m_items
+@enduml
+```
  
 @enduml
 ```
