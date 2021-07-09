@@ -50,8 +50,12 @@ package "ECサイト" as target_system {
     reg_date
     }
 }
+@startuml erd
+!include tables.pu
  
+-d_purchase_detail }--|| m_items
  
+ @enduml
  
 @enduml
 ```
