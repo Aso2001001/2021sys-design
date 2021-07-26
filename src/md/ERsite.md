@@ -1,0 +1,4 @@
+```stratuml
+@startuml
+@enduml
+```
