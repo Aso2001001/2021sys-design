@@ -61,6 +61,8 @@ package "ECサイト" as target_system {
    
   entity "お気に入り商品テーブル" as f_items <f_items> <<T,TRANSACTION_MARK_COLOR>> {
     +item_code[PK]
+    --
+    ss
     }
 
 customer |o-ri-o{ purchase
