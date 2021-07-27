@@ -59,7 +59,7 @@ package "ECサイト" as target_system {
     reg_date
     }
     
-    entitiy "お気に入り商品テーブル" as f_items <f_items> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "お気に入り商品テーブル" as f_items <f_items> <<T,TRANSACTION_MARK_COLOR>> {
     +item_code[PK]
     --
     }
