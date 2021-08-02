@@ -1,7 +1,7 @@
 # 定義書
 ## ER図
 
-[ER図はこちら](https://github.com/Aso2001001/2021sys-design/blob/main/ER.md "ER図はこちら")
+[ER図はこちら](https://github.com/Aso2001001/2021sys-design/blob/main/src/md/ER.md "ER図はこちら")
 
 # DBテーブルカラム詳細一覧
 
